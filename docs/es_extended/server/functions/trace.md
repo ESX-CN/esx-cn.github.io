@@ -4,10 +4,10 @@
 ESX.Trace(msg)
 ```
 
-This function writes a trace if debugging is enabled in the configuration file.
+如果在配置文件中启用了调试，则此函数将写入跟踪。
 
-## Arguments
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation                  |
-|----------|-----------|----------|---------------|------------------------------|
-| msg      | (any)     | No       | -             | Anything to print to console |
+| 参数 | 数据类型 | 数据类型 | 默认值 | 说明                       |
+| ---- | -------- | -------- | ------ | -------------------------- |
+| msg  | (any)    | No       | -      | 可以打印到控制台的任何内容 |

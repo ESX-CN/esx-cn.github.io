@@ -6,15 +6,15 @@ xPlayer.getAccount(account)
 
 This function gets details (returned in an table) for an account.
 
-## Argument
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation      |
+| 参数 | 数据类型 | 数据类型 | 默认值 | 说明      |
 |----------|-----------|----------|---------------|------------------|
 | account  | string    | No       | -             | An valid account |
 
 ## Returned Table Content
 
-| Child | Data Type | Explanation     |
+| Child | 数据类型 | 说明     |
 |-------|-----------|-----------------|
 | name  | string    | Account name    |
 | money | number    | Account balance |

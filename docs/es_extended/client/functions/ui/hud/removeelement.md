@@ -4,4 +4,4 @@
 ESX.UI.HUD.RemoveElement(name)
 ```
 
-This function removes a HUD element.
+该函数删除一个HUD元素。

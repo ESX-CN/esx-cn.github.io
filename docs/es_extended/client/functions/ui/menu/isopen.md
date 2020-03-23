@@ -4,4 +4,4 @@
 ESX.UI.Menu.IsOpen(type, namespace, name)
 ```
 
-This function checks if a menu is open.
+此函数检查菜单是否打开。

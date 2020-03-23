@@ -4,9 +4,9 @@
 ESX.Game.SetVehicleProperties(vehicle, props)
 ```
 
-This function sets various properties for an vehicle object.
+该函数为一辆载具对象设置各种属性。
 
-## ESX.Game.SetVehicleProperties Example
+## ESX.Game.SetVehicleProperties 示例
 
 ```lua
 local playerPed = PlayerPedId()
@@ -23,7 +23,7 @@ end
 
 ## Valid Table Content
 
-| Child             | Data Type | Explanation                                                         |
+| Child             | 数据类型   | 说明                                                                |
 |-------------------|-----------|---------------------------------------------------------------------|
 | model             | number    | The vehicle hash                                                    |
 | plate             | number    | Vehicle plate, maximum 8 characters                                 |

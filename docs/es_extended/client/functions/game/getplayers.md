@@ -4,9 +4,9 @@
 ESX.Game.GetPlayers()
 ```
 
-This function gets all active players in the server, returns a table list with player's client id's.
+这个函数获取服务器中的所有在线玩家，并返回一个玩家客户端ID表。
 
-## ESX.Game.GetPlayers Example
+## ESX.Game.GetPlayers 示例
 
 ```lua
 local players = ESX.Game.GetPlayers()

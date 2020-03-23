@@ -4,11 +4,11 @@
 ESX.Game.GetPlayersInArea(coords, radius)
 ```
 
-This function gets players in a given radius.
+这个函数获取在一个给定的半径内的玩家。
 
-## Arguments
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation                  |
+| 参数     | 数据类型   | 可选项    | 默认值        | 说明                         |
 |----------|-----------|----------|---------------|------------------------------|
-| coords   | vector3   | No       | -             | The coords to search at      |
-| area     | number    | No       | -             | The maxmimum search distance |
+| coords   | vector3   | No       | -             | 要搜索的坐标                  |
+| area     | number    | No       | -             | 最大搜寻距离                  |

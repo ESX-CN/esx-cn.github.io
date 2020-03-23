@@ -6,8 +6,8 @@ xPlayer.kick(reason)
 
 This function kicks a player with a reason.
 
-## Argument
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation                          |
+| 参数 | 数据类型 | 数据类型 | 默认值 | 说明                          |
 |----------|-----------|----------|---------------|--------------------------------------|
 | reason   | string    | Yes      | -             | Kick reason, will be shown to player |

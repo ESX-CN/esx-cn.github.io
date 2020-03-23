@@ -4,18 +4,18 @@
 local mugshot, mugshotStr = ESX.Game.GetPedMugshot(ped)
 ```
 
-This function generates a Mugshot of the ped usable in various applications.
+此函数可生成可在各种应用中使用的ped面部照片。
 
-## Argument
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation    |
+| 参数     | 数据类型   | 可选项   | 默认值         | 说明           |
 |----------|-----------|----------|---------------|----------------|
 | ped      | string    | No       | -             | The ped handle |
 
-## ESX.Game.GetPedMugshot Example
+## ESX.Game.GetPedMugshot 示例
 
 !!! warning
-    Be sure to use `UnregisterPedheadshot(mugshot)` after using it, because the game only allows you 34 mugshots, and you won't be allowed to use mugshot once this limit is reached if you don't unregister it.
+	使用后请务必使用 `UnregisterPedheadshot(mugshot)` ，因为游戏只允许你使用34张面部照片，如果你不注销它，一旦达到这个限制，你将不被允许使用面部照片。
 
 ```lua
 ESX = nil
@@ -42,8 +42,8 @@ function notification(msg)
 end
 ```
 
-![Mugshot Example](https://i.imgur.com/OV72S12.jpg)
+![面部照片效果图](https://s2.ax1x.com/2020/02/28/3rPsBt.jpg)
 
-## Also See
+## 另请参阅
 
 [ESX.ShowAdvancedNotification](../showadvancednotification.md)

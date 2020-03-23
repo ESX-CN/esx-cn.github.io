@@ -6,15 +6,15 @@ xPlayer.getInventoryItem(item)
 
 This function gets an inventory item.
 
-## Argument
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation |
+| 参数 | 数据类型 | 数据类型 | 默认值 | 说明 |
 |----------|-----------|----------|---------------|-------------|
 | item     | string    | No       | -             | Item name   |
 
 ## Returned Table Content
 
-| Child     | Data Type | Explanation                           |
+| Child     | 数据类型 | 说明                           |
 |-----------|-----------|---------------------------------------|
 | name      | string    | Item name                             |
 | count     | number    | Item count                            |

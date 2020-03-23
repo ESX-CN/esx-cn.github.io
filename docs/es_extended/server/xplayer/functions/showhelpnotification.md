@@ -6,9 +6,9 @@ xPlayer.showHelpNotification(msg, thisFrame, beep, duration)
 
 This function shows a help notification with a message. These help notification support displaying button inputs, see [this list](https://pastebin.com/HPg8pYwi)
 
-## Arguments
+## 参数
 
-| Argument  | Data Type | Optional | Default Value | Explanation                                                                         |
+| 参数  | 数据类型 | 数据类型 | 默认值 | 说明                                                                         |
 |-----------|-----------|----------|---------------|-------------------------------------------------------------------------------------|
 | msg       | string    | No       | -             | The message to display                                                              |
 | thisFrame | boolean   | Yes      | false         | Only show this frame? Should be used with scripts that show notifications in a loop |

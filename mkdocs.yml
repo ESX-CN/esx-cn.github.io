@@ -1,16 +1,16 @@
-site_name: ESX Documentation
-site_description: Official ES Extended Documentation
-site_author: ES Extended Development Team
+site_name: ESX 中文文档
+site_description: ESX 中文文档[非官方]
+site_author: MaLaGeBe
 #site_url: https://esx-org.github.io
 
 # Repository
-repo_name: ESX Organization
-repo_url: https://github.com/esx-org/
+repo_name: ESX CN
+repo_url: https://github.com/esx-cn/
 edit_uri: ""
 
 
 # Copyright
-copyright: 'Copyright &copy; 2019 ESX-Org'
+copyright: 'Copyright &copy; 2017-2020 ESX-Org'
 
 # Configuration
 docs_dir: 'docs'
@@ -86,10 +86,10 @@ markdown_extensions:
 
 # Pages
 nav:
-  - Home:
-    - Index: 'index.md'
-    - FAQ: 'faq.md'
-    - Credits: 'credits.md'
+  - 主页:
+    - 欢迎: 'index.md'
+    - 问答: 'faq.md'
+    - 鸣谢: 'credits.md'
   - ES Extended:
     - Overview: 'es_extended/index.md'
     - Common:

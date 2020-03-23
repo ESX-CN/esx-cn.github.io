@@ -4,4 +4,4 @@
 xPlayer.getName()
 ```
 
-This function returns the player name.
+该函数返回玩家的名称。

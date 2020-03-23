@@ -4,15 +4,15 @@
 ESX.Game.GetClosestPlayer(coords)
 ```
 
-This function gets the closest player.
+此函数获取最近的玩家。
 
-## Arguments
+## 参数
 
-| Argument | Data Type | Optional | Default Value     | Explanation               |
+| 参数     | 数据类型   | 可选项    | 默认值            | 说明                      |
 |----------|-----------|----------|-------------------|---------------------------|
-| coords   | vector3   | Yes      | (player's coords) | The coords to search at   |
+| coords   | vector3   | Yes      | (玩家坐标值)       | 要搜索的坐标               |
 
-## ESX.Game.GetClosestPlayer Example
+## ESX.Game.GetClosestPlayer 示例
 
 ```lua
 local closestPlayer, closestDistance = ESX.Game.GetClosestPlayer()

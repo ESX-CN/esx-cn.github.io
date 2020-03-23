@@ -4,25 +4,25 @@
 TriggerClientEvent('esx:showNotification', source, '~y~Hello ~b~world~s~!')
 ```
 
-This event shows a basic notification to the player. This is what you'll want to use server side when you wan to send a notification.
+这个事件向玩家显示一个基本的通知。这是您希望在发送通知时使用的服务器端代码。
 
-#### Supported Color Syntax
+#### 支持的颜色语法
 
-* `~r~` --> Red
-* `~b~` --> Blue
-* `~g~` --> Green
-* `~y~` --> Yellow
-* `~p~` --> Purple
-* `~o~` --> Orange
-* `~c~` --> Grey
-* `~m~` --> Dark Grey
-* `~u~` --> Black
-* `~n~` --> New Line
-* `~s~` --> White (**Default**)
-* `~w~` --> White
-* `~h~` --> Bold
+* `~r~` --> <font color=red>红色</font>
+* `~b~` --> <font color=blue>蓝色</font>
+* `~g~` --> <font color=greenm>绿色</font>
+* `~y~` --> <font color=yellow>黄色</font>
+* `~p~` --> <font color=purple>紫色</font>
+* `~o~` --> <font color=orange>橙色</font>
+* `~c~` --> <font color=grey>灰色</font>
+* `~m~` --> <font color=darkgrey>深灰色</font>
+* `~u~` --> <font color=blank>黑色</font>
+* `~n~` --> <u>下划线</u>
+* `~s~` --> <font color=white>白色</font> (**默认**)
+* `~w~` --> <font color=white>白色</font>
+* `~h~` --> **粗体**
 * `~nrt~` --> ?
 
 ###### Note
 
-Do not use this event for client side, instead use [ESX.ShowNotification](../functions/shownotification.md)
+请不要在客户端使用此事件，客户端请使用 [ESX.ShowNotification](../functions/shownotification.md)

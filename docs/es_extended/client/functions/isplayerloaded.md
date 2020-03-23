@@ -4,4 +4,4 @@
 ESX.IsPlayerLoaded()
 ```
 
-This function checks if the player is loaded.
+这个函数检查玩家是否已加载完成。

@@ -4,4 +4,4 @@
 xPlayer.getMoney()
 ```
 
-This function gets the current cash balance.
+这个函数获取当前的现金余额。

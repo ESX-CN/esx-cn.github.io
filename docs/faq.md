@@ -1,12 +1,12 @@
 # F.A.Q
 
-Here's some answers to frequently asked questions
+以下是一些常见问答
 
-## FXServer Start Order
+## FXServer 启动顺序
 
-When you're downloading scripts, especially **ES Extended** scripts there are "requirements". Which are vital to them running properly. The start order of your scripts in your `config.cfg` is _**important**_. Requirements for a script must be above the script that requires it, if it's loaded afterwards the script may not work as intended. So having your start order correct is vital.
+当你下载脚本的时候，特别是 **ESX脚本** 有“要求(Requirements)”。这对它们的正常运行至关重要。`config.cfg` 中脚本的开始顺序很 _**重要**_ 。脚本的安装要求必须高于需要它的脚本，如果在它之后加载，脚本可能无法正常工作。所以正确的开始顺序是至关重要的。
 
-??? note "Example config.cfg"
+??? note "示例 config.cfg"
     ```
     endpoint_add_tcp "0.0.0.0:30120"
     endpoint_add_udp "0.0.0.0:30120"

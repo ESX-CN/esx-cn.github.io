@@ -4,15 +4,15 @@
 xPlayer.hasWeapon(weaponName)
 ```
 
-This functions returns if the player has the specified weapon.
+该函数返回如果玩家拥有指定的武器。
 
-## Argument
+## 参数
 
-| Argument   | Data Type | Optional | Default Value | Explanation |
-|------------|-----------|----------|---------------|-------------|
-| weaponName | string    | No       | -             | Weapon name |
+| 参数       | 数据类型 | 数据类型 | 默认值 | 说明        |
+| ---------- | -------- | -------- | ------ | ----------- |
+| weaponName | string   | No       | -      | Weapon name |
 
-## xPlayer.hasWeapon Example
+## xPlayer.hasWeapon 示例
 
 ```lua
 	if xPlayer.hasWeapon('WEAPON_PISTOL') then

@@ -4,9 +4,9 @@
 ESX.ClearTimeout(id)
 ```
 
-This function clears a timeout from the `ESX.SetTimeout` function.
+该函数清除`ESX.SetTimeout`函数中的超时。
 
-#### ESX.ClearTimeout Example
+#### ESX.ClearTimeout 示例
 
 ```lua
 local id = ESX.SetTimeout(5000, function()

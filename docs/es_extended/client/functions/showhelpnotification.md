@@ -4,21 +4,117 @@
 ESX.ShowHelpNotification(msg, thisFrame, beep, duration)
 ```
 
-This function shows a help notification with a message. These help notification support displaying button inputs, see [this list](https://pastebin.com/HPg8pYwi)
+此函数显示带有消息的帮助通知。这些帮助通知支持显示按钮输入，如下列表
 
-## Arguments
+??? note "见此列表"
+    ```
+    ~INPUTGROUP_CELLPHONE_NAVIGATE_UD~
+    ~INPUTGROUP_FRONTEND_DPAD_ALL~
+    ~INPUTGROUP_FRONTEND_LSTICK_ALL~
+    ~INPUTGROUP_FRONTEND_RSTICK_ALL~
+    ~INPUTGROUP_VEH_MOVE_ALL~
+    ~INPUTGROUP_WHEEL~
+    ~ACCEPT~
+    ~INPUT_ACCURATE_AIM~
+    ~INPUT_AIM~
+    ~INPUT_ATTACK~
+    ~INPUT_CELLPHONE_CANCEL~
+    ~INPUT_CELLPHONE_EXTRA_OPTION~
+    ~INPUT_CELLPHONE_SELECT~
+    ~INPUT_CELLPHONE_UP~
+    ~INPUT_CHARACTER_WHEEL~
+    ~INPUT_CONTEXT~
+    ~INPUT_COVER~
+    ~INPUT_DETONATE~
+    ~INPUT_DIVE~
+    ~INPUT_DUCK~
+    ~INPUT_ENTER~
+    ~INPUT_FRONTEND_ACCEPT~
+    ~INPUT_FRONTEND_CANCEL~
+    ~INPUT_FRONTEND_DOWN~
+    ~INPUT_FRONTEND_LEFT~
+    ~INPUT_FRONTEND_LT~
+    ~INPUT_FRONTEND_PAUSE~
+    ~INPUT_FRONTEND_RB~
+    ~INPUT_FRONTEND_RIGHT_AXIS_Y~
+    ~INPUT_FRONTEND_RIGHT~
+    ~INPUT_FRONTEND_RLEFT~
+    ~INPUT_FRONTEND_RS~
+    ~INPUT_FRONTEND_RT~
+    ~INPUT_FRONTEND_SELECT~
+    ~INPUT_FRONTEND_UP~
+    ~INPUT_FRONTEND_X~
+    ~INPUT_FRONTEND_Y~
+    ~INPUT_HUD_SPECIAL~
+    ~INPUT_NEXT_CAMERA~
+    ~INPUT_PARACHUTE_DEPLOY~
+    ~INPUT_PHONE_ACCEPT~
+    ~INPUT_PHONE~
+    ~INPUT_PICKUP~
+    ~INPUT_SCRIPT_LB~
+    ~INPUT_SCRIPT_LEFT_AXIS_X~
+    ~INPUT_SCRIPT_LEFT_AXIS_Y~
+    ~INPUT_SCRIPT_PAD_LEFT~
+    ~INPUT_SCRIPT_PAD_RIGHT~
+    ~INPUT_SCRIPT_RB~
+    ~INPUT_SCRIPT_RDOWN~
+    ~INPUT_SCRIPT_RT~
+    ~INPUT_SCRIPT_RUP~
+    ~INPUT_SELECT_WEAPON~
+    ~INPUT_SKIP_CUTSCENE~
+    ~INPUT_SNIPER_ZOOM_OUT_SECONDARY~
+    ~INPUT_SPECIAL_ABILITY_SECONDARY~
+    ~INPUT_SPECIAL_ABILITY~
+    ~INPUT_VEH_ACCELERATE~
+    ~INPUT_VEH_ATTACK~
+    ~INPUT_VEH_CINEMATIC_UD~
+    ~INPUT_VEH_CIN_CAM~
+    ~INPUT_VEH_EXIT~
+    ~INPUT_VEH_FLY_VERTICAL_FLIGHT_MODE~
+    ~INPUT_VEH_HANDBRAKE_ALT~
+    ~INPUT_VEH_HANDBRAKE~
+    ~INPUT_VEH_HEADLIGHT~
+    ~INPUT_VEH_HORN~
+    ~INPUT_VEH_MOVE_LR~
+    ~INPUT_VEH_MOVE_UD~
+    ~INPUT_VEH_RADIO_WHEEL~
+    ~INPUT_VEH_SELECT_NEXT_WEAPON~
+    ~INPUT_WEAPON_SPECIAL_TWO~
+    ~PAD_A~
+    ~PAD_BACK~
+    ~PAD_B~
+    ~PAD_DPAD_DOWN~
+    ~PAD_DPAD_LEFTRIGHT~
+    ~PAD_DPAD_LEFT~
+    ~PAD_DPAD_RIGHT~
+    ~PAD_DPAD_UPDOWN~
+    ~PAD_LB~
+    ~PAD_LSTICK_ALL~
+    ~PAD_LSTICK_DOWN~
+    ~PAD_LSTICK_UPDOWN~
+    ~PAD_RB~
+    ~PAD_RSTICK_ALL~
+    ~PAD_RSTICK_LEFTRIGHT~
+    ~PAD_RSTICK_UPDOWN~
+    ~PAD_RT~
+    ~PAD_START~
+    ~PAD_X~
+    ~PAD_Y~
+    ```
 
-| Argument  | Data Type | Optional | Default Value | Explanation                                                                         |
+## 参数
+
+| 参数      |数据类型    | 可选项    |  默认值       | 说明                                                                                |
 |-----------|-----------|----------|---------------|-------------------------------------------------------------------------------------|
-| msg       | string    | No       | -             | The message to display                                                              |
-| thisFrame | boolean   | Yes      | false         | Only show this frame? Should be used with scripts that show notifications in a loop |
-| beep      | boolean   | Yes      | true          | Play the beep sound?                                                                |
-| duration  | number    | Yes      | -1 (5000 ms)  | Duration to show the help notification in milliseconds                              |
+| msg       | string    | No       | -             | 显示的信息                                                                           |
+| thisFrame | boolean   | Yes      | false         | 仅显示此框架？ 应该与在循环中显示通知的脚本一起使用                                      |
+| beep      | boolean   | Yes      | true          | 玩家提示音？                                                                          |
+| duration  | number    | Yes      | -1 (5000 ms)  | 显示帮助通知的持续时间（以毫秒为单位）                                                  |
 
-## ESX.ShowHelpNotification Example
+## ESX.ShowHelpNotification 示例
 
 ```lua
 ESX.ShowHelpNotification('Hit ~INPUT_CONTEXT~ to do shit!')
 ```
 
-![ShowHelpNotification Example Picture](http://imgbin.org/images/26209.jpg)
+![显示帮助消息示例效果图](https://s2.ax1x.com/2020/02/27/304RHK.jpg)

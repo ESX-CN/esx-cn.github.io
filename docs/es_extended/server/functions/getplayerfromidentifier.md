@@ -4,9 +4,9 @@
 ESX.GetPlayerFromIdentifier(identifier)
 ```
 
-This function returns the ESX player object from a (steam) identifier. Returns `nil` if no player is found.
+此函数从（STEAM）标识符返回ESX玩家对象。 如果找不到玩家，则返回`nil`。
 
-## ESX.GetPlayerFromIdentifier Example
+## ESX.GetPlayerFromIdentifier 示例
 
 ```lua
 local xPlayer = ESX.GetPlayerFromIdentifier('steam:110000104ed291c')

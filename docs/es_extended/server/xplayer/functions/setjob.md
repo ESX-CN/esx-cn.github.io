@@ -4,11 +4,11 @@
 xPlayer.setJob(name, grade)
 ```
 
-This functions sets the player job, the job must be defined in the `jobs` database table.
+该函数设置了玩家的工作，这个工作必须在`jobs`数据库表中定义。
 
-## Arguments
+## 参数
 
-| Argument | Data Type     | Optional | Default Value | Explanation |
-|----------|---------------|----------|---------------|-------------|
-| name     | string        | No       | -             | Job name    |
-| grade    | string&number | No       | -             | Job grade   |
+| 参数  | 数据类型      | 数据类型 | 默认值 | 说明     |
+|-------|---------------|----------|--------|----------|
+| name  | string        | No       | -      | 工作名称 |
+| grade | string&number | No       | -      | 工作等级 |

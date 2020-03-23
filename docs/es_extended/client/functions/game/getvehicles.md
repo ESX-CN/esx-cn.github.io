@@ -4,4 +4,4 @@
 ESX.Game.GetVehicles()
 ```
 
-Returns all spawned vehicles at a given time.
+返回给定时间的所有生成的载具。

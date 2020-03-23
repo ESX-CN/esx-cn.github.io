@@ -6,16 +6,16 @@ xPlayer.canSwapItem(firstItem, firstItemCount, testItem, testItemCount)
 
 This function is used to determinate if a player can swap an item for some other item.
 
-## Arguments
+## 参数
 
-| Argument       | Data Type | Optional | Default Value | Explanation      |
+| 参数       | 数据类型 | 数据类型 | 默认值 | 说明      |
 |----------------|-----------|----------|---------------|------------------|
 | firstItem      | string    | No       | -             | First item name  |
 | firstItemCount | number    | No       | -             | First item count |
 | testItem       | string    | No       | -             | Test item name   |
 | testItemCount  | number    | No       | -             | Test item count  |
 
-## xPlayer.canSwapItem Example
+## xPlayer.canSwapItem 示例
 
 ```lua
 if xPlayer.canSwapItem('bread', 1, 'water', 1) then

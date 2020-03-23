@@ -4,22 +4,22 @@
 ESX.ShowAdvancedNotification(sender, subject, msg, textureDict, iconType, flash, saveToBrief, hudColorIndex)
 ```
 
-This function shows an advanced notification.
+这个函数显示一个高级通知。
 
-## Arguments
+## 参数
 
-| Argument      | Data Type | Optional | Default Value | Explanation                                                                                       |
+| 参数          | 数据类型   | 可选的   | 默认值         | 说明                                                                                        		  |
 |---------------|-----------|----------|---------------|---------------------------------------------------------------------------------------------------|
-| sender        | string    | No       | -             | Message header                                                                                    |
-| subject       | string    | No       | -             | Message subject                                                                                   |
-| msg           | string    | No       | -             | Message content                                                                                   |
-| textureDict   | string    | No       | -             | Texture directory, see [Texture Directory](#Texture_Directory) for accepted values                |
-| iconType      | number    | No       | -             | Icon type, see [Icon Types](#Icon_Types) for accepted values                                      |
-| flash         | boolean   | Yes      | false         | Flash the notification?                                                                           |
-| savetoBreif   | boolean   | Yes      | true          | Save to breif? Located in Pause Menu > Help                                                       |
-| hudColorIndex | number    | Yes      | nil           | The background color, see https://gyazo.com/68bd384455fceb0a85a8729e48216e15 for available colors |
+| sender        | string    | No       | -             | 消息通知标题																						|
+| subject       | string    | No       | -             | 消息通知主题                                                                                       |
+| msg           | string    | No       | -             | 消息通知内容                                                                                       |
+| textureDict   | string    | No       | -             | 纹理目录, 有关可接受的值，请参见[纹理目录](#Texture_Directory)                                        |
+| iconType      | number    | No       | -             | 图标类型，有关可接受的值，请参见[图标类型](#Icon_Types)                                               |
+| flash         | boolean   | Yes      | false         | 闪烁通知？                                                                                         |
+| savetoBreif   | boolean   | Yes      | true          | 暂时保存通知？路径：暂停菜单 > 帮助                                                                  |
+| hudColorIndex | number    | Yes      | nil           | 背景颜色， 请参阅 [此视频](https://gyazo.com/68bd384455fceb0a85a8729e48216e15)以了解可用颜色          |
 
-## ESX.ShowAdvancedNotification Example
+## ESX.ShowAdvancedNotification 示例
 
 ```lua
 function notification(msg)
@@ -29,22 +29,22 @@ function notification(msg)
 end
 ```
 
-![Advanced Notification Example Picture](https://i.imgur.com/bX1oxrF.jpg)
+![高级同志示例效果图](https://s2.ax1x.com/2020/02/27/30hmoF.png)
 
-## Texture Directory
+## 纹理目录
 
-To specify an texture directory you can either simply parse an already existing notification image, or you can for example create a player mugshot with ESX.
+要指定一个纹理目录，您可以简单地解析一个已经存在的通知图像，或者您可以使用ESX创建一个玩家面部照片。
 
-* [Existing Image](https://wiki.gtanet.work/index.php?title=Notification_Pictures)
-* [Player Mugshots](game/getpedmugshot.md)
+* [现有图像](https://wiki.gtanet.work/index.php?title=Notification_Pictures)
+* [玩家面部照片](game/getpedmugshot.md)
 
-## Icon Types
+## 图标类型
 
-| Icon Type | Explantation        |
+| 图标类型   | 说明                |
 |-----------|---------------------|
-| 1         | Chat Box            |
-| 2         | Email               |
-| 3         | Add Friend Request  |
-| 7         | Right Jumping Arrow |
-| 8         | RP Icon             |
-| 9         | $ Icon              |
+| 1         | 聊天框               |
+| 2         | 电子邮件             |
+| 3         | 添加好友请求         |
+| 7         | 右跳箭头             |
+| 8         | RP 图标              |
+| 9         | $ 图标               |

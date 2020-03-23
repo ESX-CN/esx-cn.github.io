@@ -4,4 +4,4 @@
 ESX.UI.Menu.Close(type, namespace, name)
 ```
 
-This function closes a menu.
+此函数关闭菜单。

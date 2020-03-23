@@ -4,9 +4,9 @@
 ESX.GetWeaponLabel(weaponName)
 ```
 
-This function gets the weapon label for a given weapon.
+此函数获取给定武器的武器标签。
 
-#### ESX.GetWeaponLabel Example
+#### ESX.GetWeaponLabel 示例
 
 ```lua
 local label = ESX.GetWeaponLabel('WEAPON_ASSAULTRIFLE')

@@ -4,10 +4,10 @@
 ESX.Game.GetPeds(ignoreList)
 ```
 
-This function gets all peds found in the game world.
+该函数获得在游戏世界中的所有PEDS。
 
-## Argument
+## 参数
 
-| Argument   | Data Type | Optional | Default Value | Explanation    |
+| 参数       | 数据类型   | 可选项    | 默认值        | 说明           |
 |------------|-----------|----------|---------------|----------------|
 | ignoreList | table     | Yes      | {}            | An ignore list |

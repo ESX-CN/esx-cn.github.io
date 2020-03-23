@@ -6,9 +6,9 @@ ESX.Scaleform.ShowBreakingNews(title, msg, bottom, sec)
 
 This function shows the 'Breaking News' scaleform used multiple times in the campaign.
 
-## Arguments
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation                        |
+| 参数 | 数据类型 | 数据类型 | 默认值 | 说明                        |
 |----------|-----------|----------|---------------|------------------------------------|
 | title    | string    | No       | -             | Title text                         |
 | msg      | string    | No       | -             | Message text, supports HTML syntax |

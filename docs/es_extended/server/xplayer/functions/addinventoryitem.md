@@ -4,19 +4,19 @@
 xPlayer.addInventoryItem(item, count)
 ```
 
-This function adds an inventory item.
+此功能添加库存物品。
 
-## Arguments
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation          |
+| 参数 | 数据类型 | 数据类型 | 默认值 | 说明          |
 |----------|-----------|----------|---------------|----------------------|
-| item     | string    | No       | -             | Item name            |
-| count    | number    | No       | -             | Count of item to add |
+| item     | string    | No       | -             | 物品名称            |
+| count    | number    | No       | -             | 要添加的数目 |
 
 !!! warning
       This function will not check if the player weight limit exceeds. Recommended to use in comibation with [xPlayer.canCarryItem(item, count)](cancarryitem.md)
 
-## xPlayer.addInventoryItem Example
+## xPlayer.addInventoryItem 示例
 
 ```lua
 if targetXPlayer.canCarryItem(itemName, itemCount) then

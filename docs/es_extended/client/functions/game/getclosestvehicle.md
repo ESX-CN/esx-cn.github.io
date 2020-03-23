@@ -4,10 +4,10 @@
 ESX.Game.GetClosestVehicle(coords)
 ```
 
-This function gets the closest vehicle.
+此函数获取最近的载具。
 
-## Arguments
+## 参数
 
-| Argument | Data Type | Optional | Default Value     | Explanation               |
+| 参数      | 数据类型   | 可选项   | 默认值            | 说明                      |
 |----------|-----------|----------|-------------------|---------------------------|
-| coords   | vector3   | Yes      | (player's coords) | The coords to search at   |
+| coords   | vector3   | Yes      | (玩家的坐标)       | 要搜索的坐标               |

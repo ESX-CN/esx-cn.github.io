@@ -4,11 +4,11 @@
 ESX.GetPlayers()
 ```
 
-This function returns an array of all online players ID's.
+此函数返回所有在线玩家ID的数组。
 
-You can use this to access each players data.
+您可以使用它来访问每个玩家数据。
 
-## ESX.GetPlayers Example
+## ESX.GetPlayers 示例
 
 ```lua
 local xPlayers = ESX.GetPlayers()

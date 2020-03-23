@@ -4,10 +4,10 @@
 xPlayer.updateCoords(coords)
 ```
 
-This is an internal function used to update player coords, do not use it.
+这是用于更新玩家坐标的内部函数，请勿使用。
 
-## Argument
+## 参数
 
-| Argument | Data Type     | Optional | Default Value | Explanation       |
-|----------|---------------|----------|---------------|-------------------|
-| coords   | table&vector3 | No       | -             | New player coords |
+| 参数   | 数据类型      | 数据类型 | 默认值 | 说明              |
+| ------ | ------------- | -------- | ------ | ----------------- |
+| coords | table&vector3 | No       | -      | New player coords |

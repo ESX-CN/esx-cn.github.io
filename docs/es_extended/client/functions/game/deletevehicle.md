@@ -4,10 +4,10 @@
 ESX.Game.DeleteVehicle(vehicle)
 ```
 
-This function deletes the parsed vehicle.
+该函数删除一辆已解析的载具。
 
-## Argument
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation        |
+| 参数     | 数据类型   | 可选项    | 默认值        | 说明               |
 |----------|-----------|----------|---------------|--------------------|
 | vehicle  | string    | No       | -             | The vehicle handle |

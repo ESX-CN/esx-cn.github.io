@@ -4,4 +4,4 @@
 ESX.Streaming.RequestModel(model, cb)
 ```
 
-This function requests and returns the specified model parsed, a very common usage is spawning objects, etc.
+此函数请求并返回已解析的指定模型，非常常见的用法是生成对象等。

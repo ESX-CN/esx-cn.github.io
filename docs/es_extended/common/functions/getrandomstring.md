@@ -4,9 +4,9 @@
 ESX.GetRandomString(length)
 ```
 
-This function gets a random string, with the defined length.
+此函数获取具有定义长度的随机字符串。
 
-#### ESX.GetRandomString Example
+#### ESX.GetRandomString 示例
 
 ```lua
 local str = ESX.GetRandomString(5)

@@ -4,24 +4,24 @@
 ESX.Game.GetVehicleProperties(vehicle)
 ```
 
-This function gets an vehicle's properties.
+这个函数获取的车辆的性能。
 
-## Returned Table Content
+## 返回值
 
-| Child             | Data Type | Explanation                                                         |
+| Child             | 数据类型   | 说明                                                                |
 |-------------------|-----------|---------------------------------------------------------------------|
-| model             | number    | The vehicle hash                                                    |
-| plate             | number    | Vehicle plate, maximum 8 characters                                 |
-| plateIndex        | number    | Plate style                                                         |
-| bodyHealth        | number    | Body health                                                         |
-| engineHealth      | number    | Engine health                                                       |
-| fuelLevel         | number    | Fuel level                                                          |
-| dirtLevel         | number    | Dirtiness level                                                     |
-| color1            | number    | Primary color                                                       |
-| color2            | number    | Secondary color                                                     |
+| model             | number    | 载具哈希值                                                           |
+| plate             | number    | 车牌，最多8个字符                                                    |
+| plateIndex        | number    | 车牌风格                                                             |
+| bodyHealth        | number    | 车身健康度                                                           |
+| engineHealth      | number    | 引擎健康度                                                           |
+| fuelLevel         | number    | 燃油油位                                                             |
+| dirtLevel         | number    | 肮脏程度                                                             |
+| color1            | number    | 车漆主色调                                                           |
+| color2            | number    | 车漆副色调                                                           |
 | pearlescentColor  | number    | Pearlescent color                                                   |
-| wheelColor        | number    | Wheel color                                                         |
-| wheels            | number    | Wheel type                                                          |
+| wheelColor        | number    | 轮毂颜色                                                             |
+| wheels            | number    | 轮毂类型                                                             |
 | windowTint        | number    |                                                                     |
 | neonEnabled       | table     | Table with hardcoded four childs for left, back, front & back neons |
 | neonColor         | table     | Packed table with three childs for r,g,b                            |

@@ -4,4 +4,4 @@
 ESX.GetPlayerData()
 ```
 
-This function gets player data.
+这个函数获取玩家数据。

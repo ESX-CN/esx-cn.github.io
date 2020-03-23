@@ -4,4 +4,4 @@
 xPlayer.getIdentifier()
 ```
 
-This function returns the Rockstar identifier used
+此函数返回使用的Rockstar标识符

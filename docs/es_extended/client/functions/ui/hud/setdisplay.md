@@ -4,4 +4,4 @@
 ESX.UI.HUD.SetDisplay(opacity)
 ```
 
-This function sets the HUD opacity.
+这个函数设置HUD不透明度。

@@ -4,10 +4,10 @@
 ESX.SavePlayers(cb)
 ```
 
-This function saves all players to database. It is async, and a function (optional) is invoked once saving is complete.
+该函数保存所有玩家信息至数据库里，它是异步保存的，保存完成后将调用一个函数（数据类型—）。
 
-## Argument
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation       |
-|----------|-----------|----------|---------------|-------------------|
-| cb       | function  | Yes      | -             | Callback function |
+| 参数 | 数据类型 | 数据类型 | 默认值 | 说明     |
+| ---- | -------- | -------- | ------ | -------- |
+| cb   | function | Yes      | -      | 回调函数 |

@@ -4,16 +4,16 @@
 ESX.RegisterUsableItem(item, cb)
 ```
 
-This function registers an item as usable.
+该函数注册一个可供使用的物品。
 
-## Arguments
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation                |
-|----------|-----------|----------|---------------|----------------------------|
-| item     | string    | No       | -             | Item to register as usable |
-| cb       | function  | No       | -             | Callback function          |
+| 参数 | 数据类型 | 数据类型 | 默认值 | 说明             |
+| ---- | -------- | -------- | ------ | ---------------- |
+| item | string   | No       | -      | 要注册的物品名称 |
+| cb   | function | No       | -      | 回调函数         |
 
-## ESX.RegisterUsableItem Example
+## ESX.RegisterUsableItem 示例
 
 ```lua
 ESX.RegisterUsableItem('bread', function(playerId)

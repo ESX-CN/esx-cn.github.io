@@ -4,9 +4,9 @@
 ESX.Game.GetVehicleInDirection()
 ```
 
-This function gets the closest vehicle in the player's direction within 5 units, utilizes ray-casts.
+该函数获取在玩家5个单位内载具的方向，并使用射线投射
 
-## ESX.Game.GetVehicleInDirection Example
+## ESX.Game.GetVehicleInDirection 示例
 
 ```lua
 local vehicle = ESX.Game.GetVehicleInDirection()

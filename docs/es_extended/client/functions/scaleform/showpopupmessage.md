@@ -4,13 +4,13 @@
 ESX.Scaleform.ShowPopupWarning(title, msg, bottom, sec)
 ```
 
-This function shows a basic popup warning, like the quit confirmation warning.
+此函数显示基本的弹出警告，例如退出确认警告。
 
-## Arguments
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation                       |
-|----------|-----------|----------|---------------|-----------------------------------|
-| title    | string    | No       | -             | Title text                        |
-| msg      | string    | No       | -             | Message text                      |
-| bottom   | string    | No       | -             | Footer text                       |
-| sec      | number    | No       | -             | Time in seconds to show scaleform |
+| 参数   | 数据类型 | 可选项 | 默认值 | 说明                   |
+| ------ | -------- | ------ | ------ | ---------------------- |
+| title  | string   | No     | -      | 标题文字               |
+| msg    | string   | No     | -      | 信息内容               |
+| bottom | string   | No     | -      | 页脚文字               |
+| sec    | number   | No     | -      | 显示时长（以秒为单位） |

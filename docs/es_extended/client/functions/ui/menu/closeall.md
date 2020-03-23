@@ -4,4 +4,4 @@
 ESX.UI.Menu.CloseAll()
 ```
 
-This function closes all open menus.
+此函数关闭所有已打开的菜单。

@@ -6,11 +6,11 @@ xPlayer.getMissingAccounts(cb)
 
 This function gets missing accounts. It's an internal function used when saving player data to database and should not be used.
 
-## Argument
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation                                                              |
+| 参数 | 数据类型 | 数据类型 | 默认值 | 说明                                                              |
 |----------|-----------|----------|---------------|--------------------------------------------------------------------------|
-| cb       | function  | No       | -             | Callback function with `missingAccounts` (index-value table) as argument |
+| cb       | function  | No       | -             | Callback function with `missingAccounts` (index-value table) as 参数 |
 
 ## Returned Table Content
 

@@ -7,4 +7,4 @@ AddEventHandler('esx:playerLoaded', function(playerData)
 end)
 ```
 
-This event is triggered when the player has connected to the server
+此事件在玩家连接到服务器时触发

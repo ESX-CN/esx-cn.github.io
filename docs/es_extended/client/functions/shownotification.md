@@ -4,31 +4,31 @@
 ESX.ShowNotification(msg, flash, saveToBrief, hudColorIndex)
 ```
 
-This function shows a basic notification to the player.
+此函数显示给玩家一个基本的通知。
 
-## Arguments
+## 参数
 
-| Argument      | Data Type | Optional | Default Value | Explanation                                                                                       |
+| 参数          |  数据类型  | 可选项    |  默认值       | 说明                                                                                              |
 |---------------|-----------|----------|---------------|---------------------------------------------------------------------------------------------------|
-| msg           | string    | No       | -             | The message to display                                                                            |
-| flash         | boolean   | Yes      | false         | Flash the notification?                                                                           |
-| saveToBreif   | boolean   | Yes      | true          | Save to breif? Located in Pause Menu > Help                                                       |
-| hudColorIndex | number    | Yes      | nil           | The background color, see https://gyazo.com/68bd384455fceb0a85a8729e48216e15 for available colors |
+| msg           | string    | No       | -             | 显示的信息                                                                                         |
+| flash         | boolean   | Yes      | false         | 闪烁通知？                                                                                         |
+| saveToBreif   | boolean   | Yes      | true          | 暂时保存通知？路径：暂停菜单 > 帮助                                                                  |
+| hudColorIndex | number    | Yes      | nil           | 背景颜色， 请参阅 [此视频](https://gyazo.com/68bd384455fceb0a85a8729e48216e15)以了解可用颜色         |
 
-## Supported Color Syntax
+## 支持的颜色语法
 
-| Syntax | Color           |
+| 语法   | 颜色             |
 |--------|-----------------|
-| ~r~    | Red             |
-| ~b~    | Blue            |
-| ~g~    | Green           |
-| ~y~    | Yellow          |
-| ~p~    | Purple          |
-| ~o~    | Orange          |
-| ~c~    | Grey            |
-| ~m~    | Dark Grey       |
-| ~u~    | Black           |
-| ~n~    | New Line        |
-| ~s~    | White (default) |
-| ~w~    | White           |
-| ~h~    | Toggle Bold     |
+| ~r~    | 红色            |
+| ~b~    | 蓝色            |
+| ~g~    | 绿色            |
+| ~y~    | 黄色            |
+| ~p~    | 紫色            |
+| ~o~    | 橙色            |
+| ~c~    | 灰色            |
+| ~m~    | 深灰色          |
+| ~u~    | 黑色            |
+| ~n~    | 下划线          |
+| ~s~    | 白色 (默认)     |
+| ~w~    | 白色            |
+| ~h~    | 加粗            |

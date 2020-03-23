@@ -4,16 +4,16 @@
 xPlayer.addAccountMoney(account, money)
 ```
 
-This function adds account money.
+此函数可增加帐户资金。
 
-## Arguments
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation                                                                       |
-|----------|-----------|----------|---------------|-----------------------------------------------------------------------------------|
-| account  | string    | No       | -             | An valid account, a list of valid accounts can be found in the configuration file |
-| money    | number    | No       | -             | Amount of money to add                                                            |
+| 参数    | 数据类型 | 数据类型 | 默认值 | 说明                                     |
+| ------- | -------- | -------- | ------ | ---------------------------------------- |
+| account | string   | No       | -      | 有效帐户，可在配置文件中找到有效帐户列表 |
+| money   | number   | No       | -      | 补充的金额                               |
 
-## xPlayer.addAccountMoney Example
+## xPlayer.addAccountMoney 示例
 
 ```lua
 	local xPlayer = ESX.GetPlayerFromId(playerId)

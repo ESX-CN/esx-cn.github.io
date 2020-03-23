@@ -4,10 +4,10 @@
 ESX.GetItemLabel(item)
 ```
 
-This function returns an item label.
+此函数返回物品标签。
 
-## Argument
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation |
-|----------|-----------|----------|---------------|-------------|
-| item     | string    | No       | -             | Item name   |
+| 参数 | 数据类型 | 数据类型 | 默认值 | 说明     |
+| ---- | -------- | -------- | ------ | -------- |
+| item | string   | No       | -      | 物品标签 |

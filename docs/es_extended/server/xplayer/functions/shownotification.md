@@ -4,29 +4,29 @@
 xPlayer.showNotification(msg, flash, saveToBrief, hudColorIndex)
 ```
 
-This function shows a basic notification to the player.
+该函数显示给玩家一个基本的通知。
 
-## Arguments
+## 参数
 
-| Argument      | Data Type | Optional | Default Value | Explanation                                                                                       |
-|---------------|-----------|----------|---------------|---------------------------------------------------------------------------------------------------|
-| msg           | string    | No       | -             | The message to display                                                                            |
-| flash         | boolean   | Yes      | false         | Flash the notification?                                                                           |
-| saveToBreif   | boolean   | Yes      | true          | Save to breif? Located in Pause Menu > Help                                                       |
-| hudColorIndex | number    | Yes      | nil           | The background color, see https://gyazo.com/68bd384455fceb0a85a8729e48216e15 for available colors |
+| 参数          | 数据类型 | 数据类型 | 默认值 | 说明                                                                                   |
+|---------------|----------|----------|--------|----------------------------------------------------------------------------------------|
+| msg           | string   | No       | -      | 要显示的信息                                                                           |
+| flash         | boolean  | Yes      | false  | 闪烁通知？                                                                             |
+| saveToBreif   | boolean  | Yes      | true   | 暂时保存？ 暂停菜单>帮助                                                               |
+| hudColorIndex | number   | Yes      | nil    | 背景色, 请参阅[该地址](https://gyazo.com/68bd384455fceb0a85a8729e48216e15)了解可用颜色 |
 
-## Supported Color Syntax
+## 支持的颜色语法
 
-* `~r~` --> Red
-* `~b~` --> Blue
-* `~g~` --> Green
-* `~y~` --> Yellow
-* `~p~` --> Purple
-* `~o~` --> Orange
-* `~c~` --> Grey
-* `~m~` --> Dark Grey
-* `~u~` --> Black
-* `~n~` --> New Line
-* `~s~` --> White (Default)
-* `~w~` --> White
-* `~h~` --> Bold
+* `~r~` --> 红色
+* `~b~` --> 蓝色
+* `~g~` --> 绿色
+* `~y~` --> 黄色
+* `~p~` --> 紫色
+* `~o~` --> 橙色
+* `~c~` --> 灰色
+* `~m~` --> 深灰色
+* `~u~` --> 黑色
+* `~n~` --> 下划线
+* `~s~` --> 白色 (默认)
+* `~w~` --> 白色
+* `~h~` --> 加粗

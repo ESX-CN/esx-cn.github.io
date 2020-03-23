@@ -4,9 +4,9 @@
 ESX.Math.Round(value, numDecimalPlaces)
 ```
 
-This function rounds off a number, and optionally you can parse how many decimals you want (defaults to 0)
+此函数将数字四舍五入，并且可以选择解析多少小数位数（默认为0）
 
-#### ESX.Math.Round Example
+#### ESX.Math.Round 示例
 
 ```lua
 local value - 5.444

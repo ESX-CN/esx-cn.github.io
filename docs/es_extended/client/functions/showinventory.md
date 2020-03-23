@@ -4,4 +4,4 @@
 ESX.ShowInventory()
 ```
 
-This function shows the inventory.
+此函数显示玩家库存

@@ -1,48 +1,48 @@
-# Overview
+# 概述
 
-Instructions on how to download and install the basics of **ES Extended**.
+该文档指导说明如何下载和安装 **ESX** 框架。
 
-## Requirements
+## 要求
 
 - [mysql-async](https://github.com/brouznouf/fivem-mysql-async)
 - [async](https://github.com/ESX-Org/async)
 
-## Download & Installation
+## 下载 & 安装
 
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
+### 使用 [fvm](https://github.com/qlaffont/fvm-installer) 安装
 
 ```
-fvm install --save --folder=essential esx-org/es_extended
-fvm install --save --folder=esx esx-org/esx_menu_default
-fvm install --save --folder=esx esx-org/esx_menu_dialog
-fvm install --save --folder=esx esx-org/esx_menu_list
+fvm install --save --folder=essential esx-CN/es_extended
+fvm install --save --folder=esx esx-CN/esx_menu_default
+fvm install --save --folder=esx esx-CN/esx_menu_dialog
+fvm install --save --folder=esx esx-CN/esx_menu_list
 ```
 
-### Using Git
+### 使用 Git 安装
 
 ```
 cd resources
-git clone https://github.com/ESX-Org/es_extended [essential]/es_extended
-git clone https://github.com/ESX-Org/esx_menu_default [esx]/[ui]/esx_menu_default
-git clone https://github.com/ESX-Org/esx_menu_dialog [esx]/[ui]/esx_menu_dialog
-git clone https://github.com/ESX-Org/esx_menu_list [esx]/[ui]/esx_menu_list
+git clone https://github.com/ESX-CN/es_extended [essential]/es_extended
+git clone https://github.com/ESX-CN/esx_menu_default [esx]/[ui]/esx_menu_default
+git clone https://github.com/ESX-CN/esx_menu_dialog [esx]/[ui]/esx_menu_dialog
+git clone https://github.com/ESX-CN/esx_menu_list [esx]/[ui]/esx_menu_list
 ```
 
-### Manually
+### 手动安装
 
-- Download https://github.com/ESX-Org/es_extended/releases/latest
-- Put it in the `resource/[essential]` directory
-- Download https://github.com/ESX-Org/esx_menu_default/releases/latest
-- Put it in the `resource/[esx]/[ui]` directory
-- Download https://github.com/ESX-Org/esx_menu_dialog/releases/latest
-- Put it in the `resource/[esx]/[ui]` directory
-- Download https://github.com/ESX-Org/esx_menu_list/releases/latest
-- Put it in the `resource/[esx]/[ui]` directory
+- 下载 https://github.com/ESX-CN/es_extended/releases/latest
+- 解压至 `resource/[essential]` 文件夹
+- 下载 https://github.com/ESX-CN/esx_menu_default/releases/latest
+- 解压至 `resource/[esx]/[ui]` 文件夹
+- 下载 https://github.com/ESX-CN/esx_menu_dialog/releases/latest
+- 解压至 `resource/[esx]/[ui]` 文件夹
+- 下载 https://github.com/ESX-CN/esx_menu_list/releases/latest
+- 解压至 `resource/[esx]/[ui]` 文件夹
 
-### Installation
+### 安装
 
-- Import `es_extended.sql` in your database
-- Configure your `server.cfg` to look like this
+- 导入 `es_extended.sql` 文件至你的数据库
+- 配置 `server.cfg` 文件如下
 
 ```
 add_principal group.admin group.user

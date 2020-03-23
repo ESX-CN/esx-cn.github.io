@@ -4,4 +4,4 @@
 ESX.Streaming.RequestAnimSet(animSet, cb)
 ```
 
-This function requests and returns the animation set parsed. Animation sets provide movement styles, commonly used with [SetPedMovementClipset()](https://runtime.fivem.net/doc/reference.html#_0xAF8A94EDE7712BEF).
+此函数请求并返回已解析的动画集。动画集提供运动风格，通常与[SetPedMovementClipset()](https://runtime.fivem.net/doc/reference.html#_0xAF8A94EDE7712BEF)一起使用。

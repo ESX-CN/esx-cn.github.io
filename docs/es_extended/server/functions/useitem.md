@@ -4,11 +4,11 @@
 ESX.UseItem(playerId, itemName)
 ```
 
-This function is to force a player to use an item.
+该功能强制玩家使用物品。
 
-## Arguments
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation      |
-|----------|-----------|----------|---------------|------------------|
-| playerId | number    | No       | -             | Player server id |
-| itemName | string    | No       | -             | An item          |
+| 参数     | 数据类型 | 数据类型 | 默认值 | 说明        |
+| -------- | -------- | -------- | ------ | ----------- |
+| playerId | number   | No       | -      | 玩家服务 ID |
+| itemName | string   | No       | -      | 物品名称    |

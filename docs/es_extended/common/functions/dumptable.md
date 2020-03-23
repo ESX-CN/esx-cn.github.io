@@ -4,9 +4,9 @@
 ESX.DumpTable(table)
 ```
 
-This function dumps the given table to a readable string with a tree structure.
+此函数将给定的表转储到具有树结构的可读字符串中。
 
-## ESX.DumpTable Example
+## ESX.DumpTable 示例
 
 ```lua
 local myTable = { {esx = 'awesome'} }

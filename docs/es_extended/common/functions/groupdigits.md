@@ -4,9 +4,9 @@
 ESX.Math.GroupDigits(value)
 ```
 
-This function groups numbers, making them easier to understand by humans. Used in most nofications when money is showed, for example when buying a new car at the vehicle shop.
+此函数将数字分组，使人们更容易理解它们。在有钱显示时（例如在汽车商店购买新车时）在大多数通知中使用。
 
-#### ESX.Math.Round Example
+#### ESX.Math.Round 示例
 
 ```lua
 local value = 5555

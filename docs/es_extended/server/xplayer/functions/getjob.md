@@ -8,7 +8,7 @@ This function returns the current player job object.
 
 ## Returned Table Content
 
-| Child        | Data Type | Explanation       |
+| Child        | 数据类型 | 说明       |
 |--------------|-----------|-------------------|
 | id           | number    | Job identifier id |
 | name         | string    | Job name          |

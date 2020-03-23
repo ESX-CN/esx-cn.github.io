@@ -4,4 +4,4 @@
 ESX.UI.HUD.UpdateElement(name, data)
 ```
 
-This function updates HUD elements.
+这个函数更新HUD元素数据

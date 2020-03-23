@@ -4,11 +4,11 @@
 ESX.Game.GetVehiclesInArea(coords, radius)
 ```
 
-This function returns all vehicles within a given radius.
+这个函数返回一个给定的半径内的所有车辆。
 
-## Arguments
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation                  |
+| 参数     | 数据类型   | 可选项    | 默认值        | 说明                          |
 |----------|-----------|----------|---------------|------------------------------|
 | coords   | vector3   | No       | -             | The coords to search at      |
 | radius   | number    | No       | -             | The maxmimum search distance |

@@ -4,11 +4,11 @@
 ESX.Game.GetClosestObject(filter, coords)
 ```
 
-This function gets the closest object.
+此函数获取最近的对象。
 
-## Arguments
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation                         |
+| 参数     | 数据类型   | 可选项    | 默认值        | 说明                                |
 |----------|-----------|----------|---------------|-------------------------------------|
-| filter   | table     | No       | -             | A whitelist table with object names |
-| coords   | table     | No       | -             | Coords to search at                 |
+| filter   | table     | No       | -             | 具有对象名称的白名单表                |
+| coords   | table     | No       | -             | 搜寻坐标                             |

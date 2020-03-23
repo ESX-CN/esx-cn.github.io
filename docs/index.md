@@ -1,22 +1,26 @@
-# Welcome to ES Extended
+# 欢迎使用ESX框架
 
-This is the official documentation for **ES Extended**.
+这是 **ESX** 的中文文档。
 
-> Check out our official add-ons on the [ES Extended GitHub Page](https://github.com/ESX-Org)
+> 查看更多 [官方ESX插件](https://github.com/ESX-Org)
 
-## About
+> 查看更多 [中文定制化ESX插件](https://github.com/ESX-CN)
 
-es_extended is a roleplay framework for FiveM. ESX is short for EssentialMode Extended. The to-go framework for creating an economy based roleplay server on FiveM and most popular on the platform, too!
+> 点击加入 [FiveM中文网官方群](https://jq.qq.com/?_wv=1027&k=5aNA84M)
 
-Featuring many extra resources to fit roleplaying servers, here's a taste of what's available:
+## 关于
 
-- esx_ambulancejob: play as a medic to revive players who are bleeding out. Complete with garages and respawn & bleedout system
-- esx_policejob: patrol the city and arrest players commiting crime, with armory, outfit room and garages
-- esx_vehicleshop: roleplay working in an vehicle dealership where you sell cars to players
+es_extended是FiveM的角色扮演框架。 ESX是EssentialMode Extended的缩写。在FiveM上创建基于经济的角色扮演服务器的通用框架，也是该平台上最受欢迎的框架！
 
-ESX was initially developed by Gizz back in 2017 for his friend as the were creating an FiveM server and there wasn't any economy roleplaying frameworks available. The original code was written within a week or two and later open sourced, it has ever since been improved and parts been rewritten to further improve on it.
+提供了许多额外的资源来安装角色扮演服务器，下面是一些可用资源
 
-## Rent Server
+- esx_ambulancejob: 扮演医疗兵的角色来拯救那些正在流血的玩家。完成车库、重生和流血系统
+- esx_policejob: 在城里巡逻，逮捕犯罪的玩家，有军械库，装备室和车库
+- esx_vehicleshop: 角色扮演在汽车经销商工作，你卖车给玩家
+
+ESX最初由Gizz于2017年为他的朋友开发，当时他正在创建FiveM服务器，并且没有任何经济角色扮演框架可用。原始代码在一两个星期内就被编写出来，后来开源了，此后一直在进行改进，并对部分内容进行了重写以进一步改进。
+
+## 租用服务器
 
 ![Iceline hosting](https://media.discordapp.net/attachments/667787270375473183/667790233441533952/banner.gif)
 
@@ -30,6 +34,6 @@ There is an optional Managed Support Addon available for game servers and game V
 
 Go to [Iceline Hosting](https://iceline-hosting.com/billing/aff.php?aff=94) and use promo code `ESX` for 15% off the first month on FiveM game servers, game VPS's and Singapore VPS's.
 
-## Discord
+## ESX官方Discord
 
-Join our [Development Discord](https://discord.gg/MsWzPqE) to discuss FiveM & ESX development with the staff and members. It's not a discord to ask for help for inproper ESX installs, etc.
+加入我们[Discord开发者社群](https://discord.gg/MsWzPqE) 与 FiveM & ESX 开发者和工作人员们一起讨论。

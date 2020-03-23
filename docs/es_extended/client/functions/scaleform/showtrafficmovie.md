@@ -6,8 +6,8 @@ ESX.Scaleform.ShowTrafficMovie(sec)
 
 This function starts the traffic scaleform movie used in the campaign.
 
-## Argument
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation                       |
-|----------|-----------|----------|---------------|-----------------------------------|
-| sec      | number    | No       | -             | Time in seconds to show scaleform |
+| 参数 | 数据类型 | 数据类型 | 默认值 | 说明                              |
+| ---- | -------- | -------- | ------ | --------------------------------- |
+| sec  | number   | No       | -      | Time in seconds to show scaleform |

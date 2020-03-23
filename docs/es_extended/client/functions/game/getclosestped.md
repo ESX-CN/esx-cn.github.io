@@ -4,11 +4,11 @@
 ESX.Game.GetClosestPed(coords, ignoreList)
 ```
 
-This function gets the closest ped.
+此函数获取最近的ped。
 
-## Arguments
+## 参数
 
-| Argument   | Data Type | Optional | Default Value | Explanation                         |
+| 参数       | 数据类型   | 可选项    | 默认值        | 说明                                 |
 |------------|-----------|----------|---------------|-------------------------------------|
-| coords     | table     | No       | -             | A whitelist table with object names |
+| coords     | table     | No       | -             | 具有对象名称的白名单表                |
 | ignoreList | table     | Yes      | {}            | An table of peds to ignore          |

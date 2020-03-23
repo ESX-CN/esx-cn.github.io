@@ -8,19 +8,19 @@ end)
 
 #### `data` Table Information
 
-| child          | type    | explanation                                                                                        |
+| child          | 类型    | 说明                                                                                        |
 |----------------|---------|----------------------------------------------------------------------------------------------------|
 | victimCoords   | table   |                                                                                                    |
 | killerCoords   | table   |                                                                                                    |
-| deathCause     | string  | Returns the hash of the weapon/model/object that killed the victim.                                |
-| killedByPlayer | boolean | Was the player killed by another player? The data below is only generated when killed by a player. |
-| distance       | number  | The distance (in GTA units) between the victim and killer upon death                               |
-| killerServerId | number  | The killer's server id                                                                             |
-| killerClientId | number  | The killer's client id
+| deathCause     | string  | 返回杀死受害者的武器/模型/对象的哈希值。                                                               |
+| killedByPlayer | boolean | 玩家被其他玩家杀死了吗?下面的数据只有在玩家被杀死时才会生成。                                            |
+| distance       | number  | 死者与杀手之间的距离(GTA游戏内单位)                                                                   |
+| killerServerId | number  | 杀手的服务器id                                                                                       |
+| killerClientId | number  | 杀手的客户端id                                                                                       |
 
-#### Example Server-Side Usage
+#### 服务端调用示例
 
-Simple Kill Notifications
+一个简单的击杀通知
 
 ```lua
 RegisterServerEvent('esx:onPlayerDeath')
@@ -35,9 +35,9 @@ AddEventHandler('esx:onPlayerDeath', function(data)
 end)
 ```
 
-#### Example Client-Side Usage
+#### 客户端调用示例
 
-Here is a perfect example for checking if the player (client side) is dead, which is useful for a lot of things, for example only allowing menus to be open if alive.
+这是一个检查玩家(客户端)是否死亡的完美例子，这对很多事情都很有用，例如只允许菜单在活着的时候打开。
 
 ```lua
 local IsDead = false

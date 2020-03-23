@@ -6,14 +6,14 @@ xPlayer.addWeaponComponent(weaponName, weaponComponent)
 
 This function adds a weapon component to a weapon, if the player has it, the available component list can be found in the weapon configuration file.
 
-## Arguments
+## 参数
 
-| Argument        | Data Type | Optional | Default Value | Explanation      |
+| 参数        | 数据类型 | 数据类型 | 默认值 | 说明      |
 |-----------------|-----------|----------|---------------|------------------|
 | weaponName      | string    | No       | -             | Weapon name      |
 | weaponComponent | string    | No       | -             | Weapon component |
 
-## xPlayer.addWeaponComponent Example
+## xPlayer.addWeaponComponent 示例
 
 ```lua
 xPlayer.addWeapon('WEAPON_ASSAULTRIFLE', 50)

@@ -6,9 +6,9 @@ xPlayer.setAccountMoney(account, money)
 
 This function sets money for an account.
 
-## Arguments
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation                                       |
+| 参数 | 数据类型 | 数据类型 | 默认值 | 说明                                       |
 |----------|-----------|----------|---------------|---------------------------------------------------|
 | account  | string    | No       | -             | Valid accounts can be found in configuration file |
 | money    | number    | No       | -             | Amount of money                                   |

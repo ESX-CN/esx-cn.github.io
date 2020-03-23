@@ -4,9 +4,9 @@
 ESX.GetWeaponList()
 ```
 
-This function gets the complete weapon list and label.
+该函数获得完整的武器列表和标签。
 
-#### ESX.GetWeaponList Example
+#### ESX.GetWeaponList 示例
 
 ```lua
 local list = ESX.GetWeaponList()

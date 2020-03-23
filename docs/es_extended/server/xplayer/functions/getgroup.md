@@ -4,4 +4,4 @@
 xPlayer.getGroup()
 ```
 
-This function gets the current player group.
+这个函数获取当前的玩家用户组。

@@ -4,11 +4,11 @@
 xPlayer.triggerEvent(eventName, ...)
 ```
 
-This function triggers an client event for the player.
+该函数会触发玩家的客户端事件。
 
-## Arguments
+## 参数
 
-| Argument  | Data Type | Optional | Default Value | Explanation                  |
-|-----------|-----------|----------|---------------|------------------------------|
-| eventName | string    | No       | -             | Event name                   |
-| ...       | any       | Yes      | -             | Variable number of arguments |
+| 参数      | 数据类型 | 数据类型 | 默认值 | 说明                    |
+| --------- | -------- | -------- | ------ | ----------------------- |
+| eventName | string   | No       | -      | Event name              |
+| ...       | any      | Yes      | -      | Variable number of 参数 |

@@ -6,13 +6,13 @@ xPlayer.setMaxWeight(newWeight)
 
 This functions sets the max weight that the player can hold in their inventory.
 
-## Argument
+## 参数
 
-| Argument  | Data Type | Optional | Default Value | Explanation    |
+| 参数  | 数据类型 | 数据类型 | 默认值 | 说明    |
 |-----------|-----------|----------|---------------|----------------|
 | newWeight | number    | No       | -             | New max weight |
 
-#### xPlayer.setMaxWeight Example
+#### xPlayer.setMaxWeight 示例
 
 ```lua
 if xPlayer.group ~= 'user' then

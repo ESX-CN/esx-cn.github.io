@@ -4,4 +4,4 @@
 ESX.UI.Menu.GetOpened(type, namespace, name)
 ```
 
-This function gets all opened menus.
+此函数获取所有已打开的菜单。

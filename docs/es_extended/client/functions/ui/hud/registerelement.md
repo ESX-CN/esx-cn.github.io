@@ -4,4 +4,4 @@
 ESX.UI.HUD.RegisterElement(name, index, priority, html, data)
 ```
 
-This function registers a HUD element.
+这个函数注册一个新的HUD元素。

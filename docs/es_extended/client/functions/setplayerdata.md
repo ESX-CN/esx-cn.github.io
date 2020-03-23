@@ -4,4 +4,4 @@
 ESX.SetPlayerData(key, val)
 ```
 
-This function sets player data.
+这个函数保存玩家数据。

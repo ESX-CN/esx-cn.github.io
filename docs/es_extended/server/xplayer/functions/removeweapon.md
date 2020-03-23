@@ -6,8 +6,8 @@ xPlayer.removeWeapon(weaponName)
 
 This function removes a weapon from the player.
 
-## Argument
+## 参数
 
-| Argument   | Data Type | Optional | Default Value | Explanation |
+| 参数   | 数据类型 | 数据类型 | 默认值 | 说明 |
 |------------|-----------|----------|---------------|-------------|
 | weaponName | string    | No       | -             | Weapon name |

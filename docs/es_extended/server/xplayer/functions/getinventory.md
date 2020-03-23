@@ -4,11 +4,11 @@
 xPlayer.getInventory(minimal)
 ```
 
-This function returns the entire player inventory.
+该函数返回玩家库存信息。
 
-## Argument
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation                                                                                                       |
+| 参数 | 数据类型 | 数据类型 | 默认值 | 说明                                                                                                       |
 |----------|-----------|----------|---------------|-------------------------------------------------------------------------------------------------------------------|
 | minimal  | boolean   | Yes      | -             | Return inventory in a key-value table where key is item name, and only add items with count over 0 to that table. |
 
@@ -16,7 +16,7 @@ This function returns the entire player inventory.
 
 The returned table contains an index-value table, and for each child there is a key-value table with the following content:
 
-| Child     | Data Type | Explanation                           |
+| Child     | 数据类型 | 说明                           |
 |-----------|-----------|---------------------------------------|
 | name      | string    | Item name                             |
 | count     | number    | Item count                            |

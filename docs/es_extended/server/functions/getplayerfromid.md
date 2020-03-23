@@ -4,15 +4,15 @@
 ESX.GetPlayerFromId(playerId)
 ```
 
-This function gets a ESX player object from a server id. Returns `nil` for invalid players.
+此函数从服务器 ID 获取 ESX 玩家对象。对于不在线玩家返回`nil`。
 
-## Argument
+## 参数
 
-| Argument | Data Type | Optional | Default Value | Explanation          |
-|----------|-----------|----------|---------------|----------------------|
-| playerId | number    | No       | -             | The player server id |
+| 参数     | 数据类型 | 数据类型 | 默认值 | 说明          |
+| -------- | -------- | -------- | ------ | ------------- |
+| playerId | number   | No       | -      | 玩家服务器 ID |
 
-## ESX.GetPlayerFromId Example
+## ESX.GetPlayerFromId 示例
 
 ```lua
 RegisterNetEvent('esx_ambulancejob:healMe')

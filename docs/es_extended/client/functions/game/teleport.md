@@ -4,20 +4,20 @@
 ESX.Game.Teleport(entity, coords, cb)
 ```
 
-This function teleports an entity.
+该函数传送一个实体。
 
 !!! warning
-      This is an async function because it awaits collision to be loaded, there is an example below on how to properly utilize it.
+      这是一个异步函数，因为它等待加载冲突，下面有一个有关如何正确利用它的示例。
 
-## Arguments
+## 参数
 
-| Argument | Data Type     | Optional | Default Value | Explanation                                                                                                                                                              |
+| 参数     | 数据类型       | 可选项    | 默认值        | 说明                                                                                                                                                                        |
 |----------|---------------|----------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| entity   | string        | No       | -             | The entity to teleport                                                                                                                                                   |
-| coords   | table&vector3 | No       | -             | The coords to be teleported to. Supports both vector3 and table types. If using a table type you can also specify `heading` to set the entity heading upon teleportation |
-| cb       | function      | Yes      | -             | The returned function when the entity has been teleported                                                                                                                |
+| entity   | string        | No       | -             | 要传送的实体                                                                                                                                                                         |
+| coords   | table&vector3 | No       | -             | 要传送到的坐标。 同时支持vector3和表格类型。 如果使用表格类型，您还可以指定`heading`来设置传送时的实体方向                                                                                                                           |
+| cb       | function      | Yes      | -             | 实体被传送后返回的函数                                                                                                                               |
 
-## ESX.Game.Teleport Example
+## ESX.Game.Teleport 示例
 
 ```lua
 local playerPed = PlayerPedId()

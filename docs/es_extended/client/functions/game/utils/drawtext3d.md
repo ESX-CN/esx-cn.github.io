@@ -4,4 +4,4 @@
 ESX.Game.Utils.DrawText3D(coords, text, size, font)
 ```
 
-This function draws 3D text on the specified coords. Must be drawn every frame, ideally in a loop. `size` and `font` arguments are optional.
+该函数在指定的坐标上绘制3D文本。 必须每帧绘制一次，最好是循环绘制。 size和font参数是可选的。

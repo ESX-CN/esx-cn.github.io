@@ -4,4 +4,4 @@
 ESX.Math.Trim(value)
 ```
 
-This function trims an text, removing all trailing whitespaces. Often used when sanitizing the `GetVehicleNumberPlateText()` native.
+该函数格式化文本，删除所有尾随空格。常用语`GetVehicleNumberPlateText()`函数
