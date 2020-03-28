@@ -4,9 +4,9 @@
 
 ## FXServer 启动顺序
 
-当你下载脚本的时候，特别是 **ESX脚本** 有“要求(Requirements)”。这对它们的正常运行至关重要。`config.cfg` 中脚本的开始顺序很 _**重要**_ 。脚本的安装要求必须高于需要它的脚本，如果在它之后加载，脚本可能无法正常工作。所以正确的开始顺序是至关重要的。
+当你下载脚本的时候，特别是 **ESX脚本** 有“要求(Requirements)”。这对它们的正常运行至关重要。`server.cfg` 中脚本的开始顺序很 _**重要**_ 。脚本的安装要求必须高于需要它的脚本，如果在它之后加载，脚本可能无法正常工作。所以正确的开始顺序是至关重要的。
 
-??? note "示例 config.cfg"
+??? note "示例 server.cfg"
     ```
     endpoint_add_tcp "0.0.0.0:30120"
     endpoint_add_udp "0.0.0.0:30120"
@@ -27,15 +27,10 @@
     add_ace resource.es_extended command.remove_principal allow
 
     #### FIVEM DEFAULT ####
-        start mapmanager
         start chat
-        start spawnmanager
         start sessionmanager
         restart sessionmanager
-        start fivem
         start hardcap
-        start rconlog
-        start scoreboard
 
     #### ESSENTIAL
         start mysql-async
