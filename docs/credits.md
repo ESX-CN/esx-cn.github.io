@@ -10,9 +10,16 @@
 
 ### 翻译官
 
-- [nearbyplayer](https://github.com/nearbyplayer)
 - [ddh3](https://github.com/ddh3)
 - [deviljin112](https://github.com/deviljin112)
+- [majormarcin](https://github.com/majormarcin)
+- [rex2630](https://github.com/rex2630)
+- [Oldarorn](https://github.com/Oldarorn)
+- [psycodeliccircus](https://github.com/psycodeliccircus)
+- [MHL1337](https://github.com/MHL1337)
+- [Vanheden](https://github.com/Vanheden)
+- [userMacieG](https://github.com/userMacieG)
+- [redoper1](https://github.com/redoper1)
 - .. 还有很多！
 
 ### 贡献者
@@ -22,7 +29,15 @@
 - [Renaiku](https://github.com/renaiku)
 - [ig0ne](https://github.com/ig0ne)
 - .flo
-- .. 还有很多!
+- [LuaDeldu](https://github.com/LuaDeldu)
+- [ArkSeyonet](https://github.com/ArkSeyonet)
+- [RedAlex](https://github.com/RedAlex)
+- [LifeGoal](https://github.com/LifeGoal)
+- [KandaSoranyan](https://github.com/KandaSoranyan)
+- [TanguyOrtegat](https://github.com/TanguyOrtegat)
+- [tracid56](https://github.com/tracid56)
+- [SaltyGrandpa](https://github.com/SaltyGrandpa)
+- .. 还有很多！
 
 
 
