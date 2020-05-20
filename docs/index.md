@@ -8,6 +8,8 @@
 
 > 点击加入 [FiveM中文网官方群](https://jq.qq.com/?_wv=1027&k=5aNA84M)
 
+es_extended is a roleplay framework for FiveM. The to-go framework for creating an economy based roleplay server on FiveM and most popular on the platform, too!
+
 ## 关于
 
 es_extended是FiveM的角色扮演框架。 ESX是EssentialMode Extended的缩写。在FiveM上创建基于经济的角色扮演服务器的通用框架，也是该平台上最受欢迎的框架！
