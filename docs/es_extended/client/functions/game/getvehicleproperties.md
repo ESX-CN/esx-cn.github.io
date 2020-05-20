@@ -10,15 +10,16 @@ ESX.Game.GetVehicleProperties(vehicle)
 
 | Child             | 数据类型   | 说明                                                                |
 |-------------------|-----------|---------------------------------------------------------------------|
-| model             | number    | 载具哈希值                                                           |
-| plate             | number    | 车牌，最多8个字符                                                    |
-| plateIndex        | number    | 车牌风格                                                             |
-| bodyHealth        | number    | 车身健康度                                                           |
-| engineHealth      | number    | 引擎健康度                                                           |
-| fuelLevel         | number    | 燃油油位                                                             |
-| dirtLevel         | number    | 肮脏程度                                                             |
-| color1            | number    | 车漆主色调                                                           |
-| color2            | number    | 车漆副色调                                                           |
+| model             | number    | The vehicle hash                                                    |
+| plate             | number    | Vehicle plate, maximum 8 characters                                 |
+| plateIndex        | number    | Plate style                                                         |
+| bodyHealth        | number    | Body health                                                         |
+| engineHealth      | number    | Engine health                                                       |
+| tankHealth        | number    | Petrol Tank health                                                  |
+| fuelLevel         | number    | Fuel level                                                          |
+| dirtLevel         | number    | Dirtiness level                                                     |
+| color1            | number    | Primary color                                                       |
+| color2            | number    | Secondary color                                                     |
 | pearlescentColor  | number    | Pearlescent color                                                   |
 | wheelColor        | number    | 轮毂颜色                                                             |
 | wheels            | number    | 轮毂类型                                                             |

@@ -1,14 +1,14 @@
 # ESX.Game.GetVehiclesInArea
 
 ```lua
-ESX.Game.GetVehiclesInArea(coords, radius)
+ESX.Game.GetVehiclesInArea(coords, maxDistance)
 ```
 
-这个函数返回一个给定的半径内的所有车辆。
+This function gets all vehicles within the max distance of a coord.
 
 ## 参数
 
-| 参数     | 数据类型   | 可选项    | 默认值        | 说明                          |
-|----------|-----------|----------|---------------|------------------------------|
-| coords   | vector3   | No       | -             | The coords to search at      |
-| radius   | number    | No       | -             | The maxmimum search distance |
+| Argument    | Data Type     | Optional | Default Value            | Explanation                  |
+|-------------|---------------|----------|--------------------------|------------------------------|
+| coords      | table&vector3 | Yes      | (your player ped coords) | The coords to search at      |
+| maxDistance | number        | No       | -                        | The maxmimum search distance |

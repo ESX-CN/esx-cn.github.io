@@ -1,6 +1,6 @@
 # 欢迎使用ESX框架
 
-这是 **ESX** 的中文文档。
+这是 **ES Extended** 的中文文档。
 
 > 查看更多 [官方ESX插件](https://github.com/ESX-Org)
 
@@ -19,20 +19,6 @@ es_extended是FiveM的角色扮演框架。 ESX是EssentialMode Extended的缩�
 - esx_vehicleshop: 角色扮演在汽车经销商工作，你卖车给玩家
 
 ESX最初由Gizz于2017年为他的朋友开发，当时他正在创建FiveM服务器，并且没有任何经济角色扮演框架可用。原始代码在一两个星期内就被编写出来，后来开源了，此后一直在进行改进，并对部分内容进行了重写以进一步改进。
-
-## 租用服务器
-
-![Iceline hosting](https://media.discordapp.net/attachments/667787270375473183/667790233441533952/banner.gif)
-
-Are you thinking of starting a FiveM server of your own? [Iceline Hosting](https://iceline-hosting.com/billing/aff.php?aff=94) provide cost effective game servers, high end game VPS's with DDoS protection included, and more!
-
-There is an optional Managed Support Addon available for game servers and game VPS's that add the following services:
-
-- Investigation and fixing errors in relation to the server or third-party scripts
-- Installing third-party scripts or software
-- Recovery of lost data
-
-Go to [Iceline Hosting](https://iceline-hosting.com/billing/aff.php?aff=94) and use promo code `ESX` for 15% off the first month on FiveM game servers, game VPS's and Singapore VPS's.
 
 ## ESX官方Discord
 

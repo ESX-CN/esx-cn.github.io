@@ -4,16 +4,16 @@
 ESX.GetPlayerFromIdentifier(identifier)
 ```
 
-此函数从（STEAM）标识符返回ESX玩家对象。 如果找不到玩家，则返回`nil`。
+次函数将Rockstar标识符返回给ESX玩家。如果未找到玩家则返回`nil`
 
 ## ESX.GetPlayerFromIdentifier 示例
 
 ```lua
-local xPlayer = ESX.GetPlayerFromIdentifier('steam:110000104ed291c')
+local xPlayer = ESX.GetPlayerFromIdentifier('888452e629a590b9d79245f0030b1f7b9a81d558')
 
 if xPlayer then
-	xPlayer.showNotification('Hello Hawaii!')
+	xPlayer.showNotification('Welcome Hawaii!')
 else
-	print('Hawaii is not in your server')
+	print('Hawaii is not in your server, good')
 end
 ```

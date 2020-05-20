@@ -1,14 +1,14 @@
 # ESX.Game.GetPlayersInArea
 
 ```lua
-ESX.Game.GetPlayersInArea(coords, radius)
+ESX.Game.GetPlayersInArea(coords, maxDistance)
 ```
 
-这个函数获取在一个给定的半径内的玩家。
+This function gets all players within the max distance of a coord.
 
 ## 参数
 
-| 参数     | 数据类型   | 可选项    | 默认值        | 说明                         |
-|----------|-----------|----------|---------------|------------------------------|
-| coords   | vector3   | No       | -             | 要搜索的坐标                  |
-| area     | number    | No       | -             | 最大搜寻距离                  |
+| Argument    | Data Type     | Optional | Default Value            | Explanation                  |
+|-------------|---------------|----------|--------------------------|------------------------------|
+| coords      | table&vector3 | Yes      | (your player ped coords) | The coords to search at      |
+| maxDistance | number        | No       | -                        | The maxmimum search distance |

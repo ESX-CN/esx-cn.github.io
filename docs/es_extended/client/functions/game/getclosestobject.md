@@ -1,14 +1,14 @@
 # ESX.Game.GetClosestObject
 
 ```lua
-ESX.Game.GetClosestObject(filter, coords)
+ESX.Game.GetClosestObject(coords, modelFilter)
 ```
 
-此函数获取最近的对象。
+This function returns the closest object handle, and distance to the object.
 
 ## 参数
 
-| 参数     | 数据类型   | 可选项    | 默认值        | 说明                                |
-|----------|-----------|----------|---------------|-------------------------------------|
-| filter   | table     | No       | -             | 具有对象名称的白名单表                |
-| coords   | table     | No       | -             | 搜寻坐标                             |
+| Argument    | Data Type     | Optional | Default Value            | Explanation                                                                                                                            |
+|-------------|---------------|----------|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| coords      | table&vector3 | Yes      | (your player ped coords) | Coords to search at                                                                                                                    |
+| modelFilter | table         | Yes      | -                        | Enables whitelist mode for getting closest object. The table must be key-value where the key is the model hash, and value set to true. |

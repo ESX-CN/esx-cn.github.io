@@ -1,14 +1,34 @@
 # 特别鸣谢
 
-**ES Extended's** 的发展归功于以下用户。有些用户可能没有被列出，但是我们感谢您对我们项目的持续支持。如果你认为你应该在这个名单，然后联系我们，我们会审查它。
+Here is the wall of fame for everyone who has aided the project! We're linking to the GitHub accounts.
 
 ## 现任ESX员工团队
 
-- [GiZz](https://github.com/indilo53)
-- [Hawaii_Beach](https://github.com/ElPumpo)
-- [nearbyplayer](https://github.com/nearbyplayer)
+If you want to get in touch with us then the fastest way is to contact us via our development discord.
 
-### 翻译官
+- [GiZz](https://github.com/indilo53): owner
+- [Hawaii_Beach](https://github.com/ElPumpo) (aka ElPumpo): maintainer & snail murderer
+- [nearbyplayer](https://github.com/nearbyplayer): administration
+
+## Contributors & Retired Staff Members
+
+- [FuraXx](https://github.com/FuraXx)
+- [RomainLanz](https://github.com/RomainLanz)
+- [Renaiku](https://github.com/renaiku)
+- [ig0ne](https://github.com/ig0ne)
+- .flo
+- [LuaDeldu](https://github.com/LuaDeldu)
+- [ArkSeyonet](https://github.com/ArkSeyonet)
+- [KandaSoranyan](https://github.com/KandaSoranyan)
+- [TanguyOrtegat](https://github.com/TanguyOrtegat)
+- [tracid56](https://github.com/tracid56)
+- [AdrineX](https://github.com/AdrineX)
+- [RedAlex](https://github.com/RedAlex)
+- [LifeGoal](https://github.com/LifeGoal)
+- [SaltyGrandpa](https://github.com/SaltyGrandpa)
+- .. 还有很多！
+
+## Translators
 
 - [ddh3](https://github.com/ddh3)
 - [deviljin112](https://github.com/deviljin112)
@@ -20,25 +40,6 @@
 - [Vanheden](https://github.com/Vanheden)
 - [userMacieG](https://github.com/userMacieG)
 - [redoper1](https://github.com/redoper1)
-- .. 还有很多！
+- .. and many more!
 
-### 贡献者
-
-- [AdrineX](https://github.com/AdrineX)
-- [RomainLanz](https://github.com/RomainLanz)
-- [Renaiku](https://github.com/renaiku)
-- [ig0ne](https://github.com/ig0ne)
-- .flo
-- [LuaDeldu](https://github.com/LuaDeldu)
-- [ArkSeyonet](https://github.com/ArkSeyonet)
-- [RedAlex](https://github.com/RedAlex)
-- [LifeGoal](https://github.com/LifeGoal)
-- [KandaSoranyan](https://github.com/KandaSoranyan)
-- [TanguyOrtegat](https://github.com/TanguyOrtegat)
-- [tracid56](https://github.com/tracid56)
-- [SaltyGrandpa](https://github.com/SaltyGrandpa)
-- .. 还有很多！
-
-
-
-可以在各个GitHub存储库的见解中找到有关ESX项目的绝对完整参与者列表（那些为旧存储库做出贡献的人除外）。
+An absolute complete list of contributers to the ESX project can be found at the individual GitHub repos' insights (except the ones who have been contributing on old repos)

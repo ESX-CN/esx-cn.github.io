@@ -1,13 +1,14 @@
 # ESX.Game.GetClosestVehicle
 
 ```lua
-ESX.Game.GetClosestVehicle(coords)
+ESX.Game.GetClosestVehicle(coords, modelFilter)
 ```
 
 此函数获取最近的载具。
 
 ## 参数
 
-| 参数      | 数据类型   | 可选项   | 默认值            | 说明                      |
-|----------|-----------|----------|-------------------|---------------------------|
-| coords   | vector3   | Yes      | (玩家的坐标)       | 要搜索的坐标               |
+| Argument    | Data Type     | Optional | Default Value            | Explanation                                                                                                                             |
+|-------------|---------------|----------|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| coords      | table         | Yes      | (your player ped coords) | Coords to search at                                                                                                                     |
+| modelFilter | table&vector3 | Yes      | -                        | Enables whitelist mode for getting closest vehicle. The table must be key-value where the key is the model hash, and value set to true. |

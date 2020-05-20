@@ -4,22 +4,22 @@
 ESX.Game.GetClosestPlayer(coords)
 ```
 
-此函数获取最近的玩家。
+This function gets the closest player client id, and distance to the player.
 
-## 参数
+## Argument
 
-| 参数     | 数据类型   | 可选项    | 默认值            | 说明                      |
-|----------|-----------|----------|-------------------|---------------------------|
-| coords   | vector3   | Yes      | (玩家坐标值)       | 要搜索的坐标               |
+| Argument | Data Type     | Optional | Default Value            | Explanation         |
+|----------|---------------|----------|--------------------------|---------------------|
+| coords   | table&vector3 | Yes      | (your player ped coords) | Coords to search at |
 
 ## ESX.Game.GetClosestPlayer 示例
 
 ```lua
-local closestPlayer, closestDistance = ESX.Game.GetClosestPlayer()
+local closestPlayer, closestPlayerDistance = ESX.Game.GetClosestPlayer()
 
-if closestPlayer == -1 or closestDistance > 3.0 then
-	ESX.ShowNotification('There\'s no players nearby you!')
+if closestPlayer == -1 or closestPlayerDistance > 3.0 then
+	ESX.ShowNotification('There\'s no player near you!')
 else
-	ESX.ShowNotification(('Found %s, they are %s unit(s) away'):format(GetPlayerName(closestPlayer), closestDistance))
+	ESX.ShowNotification(('Found %s, they are %s unit(s) away'):format(GetPlayerName(closestPlayer), closestPlayerDistance))
 end
 ```

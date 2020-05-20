@@ -1,10 +1,18 @@
 # ESX.Game.GetPlayers
 
 ```lua
-ESX.Game.GetPlayers()
+ESX.Game.GetPlayers(onlyOtherPlayers, returnKeyValue, returnPeds)
 ```
 
-这个函数获取服务器中的所有在线玩家，并返回一个玩家客户端ID表。
+This function is used to get all the active players.
+
+## Arguments
+
+| Argument         | Data Type | Optional | Default Value | Explanation                                                                                                                                                                                                                           |
+|------------------|-----------|----------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| onlyOtherPlayers | boolean   | Yes      | nil (false)   | Only return other players than yourself?                                                                                                                                                                                              |
+| returnKeyValue   | boolean   | Yes      | nil (false)   | If set to true it will return in a key-value table where key is player client id and key being the ped handle. Otherwise it create a index-value table, with value being either the ped handle or client id depending on `returnPeds` |
+| returnPeds       | boolean   | Yes      | nil (false)   | If set to true it will return the ped handle for that player, otherwise it will return the player client id                                                                                                                           |
 
 ## ESX.Game.GetPlayers 示例
 

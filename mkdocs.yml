@@ -10,7 +10,7 @@ edit_uri: ""
 
 
 # Copyright
-copyright: 'Copyright &copy; 2017-2020 ESX-Org'
+copyright: 'Copyright &copy; 2019-2020 ESX-Org'
 
 # Configuration
 docs_dir: 'docs'
@@ -88,10 +88,11 @@ markdown_extensions:
 nav:
   - 主页:
     - 欢迎: 'index.md'
+    - 安装: 'installation.md'
     - 问答: 'faq.md'
     - 鸣谢: 'credits.md'
-  - ES Extended:
-    - Overview: 'es_extended/index.md'
+  - ES Extended 文档:
+    - 首页: 'es_extended/index.md'
     - Common:
       - Functions:
         - ESX.GetRandomString: 'es_extended/common/functions/getrandomstring.md'
@@ -241,4 +242,4 @@ plugins:
 extra:
   social:
     - type: 'github-alt'
-      link: https://github.com/ESX-Org
+      link: https://github.com/ESX-CN

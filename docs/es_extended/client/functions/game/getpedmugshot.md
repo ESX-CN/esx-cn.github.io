@@ -4,7 +4,7 @@
 local mugshot, mugshotStr = ESX.Game.GetPedMugshot(ped)
 ```
 
-此函数可生成可在各种应用中使用的ped面部照片。
+This function generates a mugshot of the ped usable in various applications.
 
 ## 参数
 
