@@ -1,3 +1,7 @@
+---
+title: Index
+---
+
 # 欢迎使用ESX框架
 
 这是 **ES Extended** 的中文文档。
@@ -7,8 +11,6 @@
 > 查看更多 [中文定制化ESX插件](https://github.com/ESX-CN)
 
 > 点击加入 [FiveM中文网官方群](https://jq.qq.com/?_wv=1027&k=5aNA84M)
-
-es_extended is a roleplay framework for FiveM. The to-go framework for creating an economy based roleplay server on FiveM and most popular on the platform, too!
 
 ## 关于
 
