@@ -6,7 +6,7 @@ title: Index
 
 这是 **ES Extended** 的中文文档。
 
-> 查看更多 [官方ESX插件](https://github.com/ESX-Org)
+> 查看更多 [官方ESX插件](https://github.com/esx-framework)
 
 > 查看更多 [中文定制化ESX插件](https://github.com/ESX-CN)
 
@@ -27,3 +27,11 @@ ESX最初由Gizz于2017年为他的朋友开发，当时他正在创建FiveM服�
 ## ESX官方Discord
 
 加入我们[Discord开发者社群](https://discord.gg/MsWzPqE) 与 FiveM & ESX 开发者和工作人员们一起讨论。
+
+## Forum
+
+Join our [Forum](https://forum.esx-framework.org) to get support for ESX. This is the proper place to ask for help.
+
+## Reddit
+
+Join our [Reddit](https://reddit.com/r/esxframework/) if you really love ESX!
